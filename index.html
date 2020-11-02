@@ -312,7 +312,22 @@
                   <div class="media-content">
                     <div class="content">
                       <p>
-                        <strong>Databases</strong>
+                        <strong>MongoDB</strong>
+                        <br />
+                        <progress
+                          class="progress is-primary"
+                          value="90"
+                          max="100"
+                        ></progress>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>PostgreSQL</strong>
                         <br />
                         <progress
                           class="progress is-primary"
@@ -330,18 +345,6 @@
       </div>
     </section>
 
-    <!-- Skills tags -->
-    <!-- <br>
-        <div class="tags custom-tags">
-          <span class="tag is-light">Node.js</span><span class="tag is-light">Express.js</span><span class="tag is-light">VueJS</span><span
-            class="tag is-light">JavaScript</span><span class="tag is-light">HTML5</span><span class="tag is-light">Canvas</span><span
-            class="tag is-light">CSS3</span><span class="tag is-light">Bulma</span><span class="tag is-light">Bootstrap</span><span
-            class="tag is-light">jQuery</span><span class="tag is-light">Pug</span><span class="tag is-light">Stylus</span><span
-            class="tag is-light">SASS/SCSS</span><span class="tag is-light">Webpack</span><span class="tag is-light">Git</span><span
-            class="tag is-light">ASP.NET Web Forms</span><span class="tag is-light">MSSQL</span><span class="tag is-light">MongoDB</span><span
-            class="tag is-light">Apache Cordova</span><span class="tag is-light">Chrome Extensions</span>
-        </div> -->
-
     <!-- Services -->
     <section class="section" id="services">
       <div class="section-heading">
@@ -354,10 +357,10 @@
             <div class="box">
               <div class="content">
                 <h4 class="title is-5">Front End Web Development</h4>
-                Develop front-end using latest standards with HTML5/CSS3 with
-                added funtionality using JavaScript and React.js. Utilize API's
-                to deliver up to date information while keeping a mobile first
-                approach to responsive design.
+                Develop front-end applications using latest standards with
+                HTML5/CSS3 with added funtionality using JavaScript and
+                React.js. Utilize API's to deliver up to date information while
+                keeping a mobile first approach to responsive design.
               </div>
             </div>
           </div>
@@ -365,10 +368,9 @@
             <div class="box">
               <div class="content">
                 <h4 class="title is-5">Back End Web Development</h4>
-                Develop back-end application/service using Node.js and Express
-                alongside MongoDB or PostgreSQL databases, in which integrates
-                with front-end flawlessly. Build logic for robust APIs and easy
-                to use CMS'.
+                Develop back-end applications/services using Node.js and Express
+                alongside MongoDB or PostgreSQL database. Build robust APIs with
+                documentation and easy to use CRUD functionality.
               </div>
             </div>
           </div>
@@ -689,11 +691,11 @@
     </footer>
     <script>
       var toggleBurger = () => {
-        var burger = document.querySelector(".burger");
-        var menu = document.querySelector(".navbar-burger");
-        burger.classList.toggle("is-active");
-        menu.classList.toggle("is-active");
-      };
+        var burger = document.querySelector('.burger')
+        var menu = document.querySelector('.navbar-burger')
+        burger.classList.toggle('is-active')
+        menu.classList.toggle('is-active')
+      }
     </script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
