@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 
 .has-same-height .card {
   height: 320px;
   overflow: hidden;
+}
+
+.about-section {
+  width: 650px;
 }
 
 .card-content h3 {
@@ -46,5 +50,5 @@ th {
 .logo {
   font-size: 3em;
   color: aliceblue;
-  font-family: "Ranchers", cursive;
+  font-family: 'Ranchers', cursive;
 }
