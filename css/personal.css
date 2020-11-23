@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 
+.hero {
+  background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?cs=srgb&dl=pexels-pixabay-373543.jpg&fm=jpg');
+  background-size: cover;
+}
+
 .has-same-height .card {
   height: 320px;
   overflow: hidden;
